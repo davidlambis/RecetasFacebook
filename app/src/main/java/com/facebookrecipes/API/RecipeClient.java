@@ -14,6 +14,7 @@ public class RecipeClient {
                 .build();
     }
 
+    //Retrofit
     public RecipeService getRecipeService() {
         return this.retrofit.create(RecipeService.class);
     }
